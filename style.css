@@ -1,5 +1,12 @@
+body {
+  background-color: #f7f4ea;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
 h1 {
   text-align: center;
+  color: #574b9b;
 }
 
 .main-container {
@@ -14,13 +21,15 @@ h1 {
   margin: auto;
   width: 512px;
   height: 512px;
-  border: 2px solid;
+  border: 2px double;
   cursor: cell;
 }
 
 .menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 1em;
+  padding: 1em;
 }
 
 .box-shadow {
@@ -30,13 +39,29 @@ h1 {
 }
 
 .square {
-  width: 32px;
-  height: 32px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #9ce3cf;
+  /* outline: 1px solid; */
+}
+
+.square2 {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
 }
 
 .black {
   background-color: black;
+}
+
+button {
+  padding: 1em;
+  color: #574b9b;
+  cursor: pointer;
+  min-width: 152px;
 }

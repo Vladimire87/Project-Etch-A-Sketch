@@ -13,12 +13,22 @@
       <h1>Project: Etch-A-Sketch</h1>
 
       <ul class="menu">
-        <button id="squarePromt">number of squares per side</button>
-        <button>number of squares per side</button>
-        <button>number of squares per side</button>
+        <button id="squarePromt4">4 x 4 Squares</button>
+        <button id="squarePromt8">8 x 8 Squares</button>
+        <button id="squarePromt16">16 x 16 Squares</button>
+        <button id="squarePromt32">32 x 32 Squares</button>
+        <button id="squarePromt64">64 x 64 Squares</button>
       </ul>
 
-      <div class="flex-container" id="container"></div>
+      <div
+        class="flex-container box-shadow"
+        id="container"
+        ondragstart="return false;"
+        ondrop="return false;"
+      ></div>
+      <ul class="menu">
+        <button id="clear">Reset</button>
+      </ul>
     </div>
   </body>
 </html>
